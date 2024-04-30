@@ -12,5 +12,15 @@ export default function Works() {
       githubUrl={'https://github.com/chihaso/scribblings'}
       technologies={['Next', 'CloudFront', 'GitHubActions']}
     />
+    <Work
+      title={'審議法案ウォッチャー'}
+      imagePath={'/works/bill_watcher.png'}
+      description={
+        '国会で審議されている法案を一覧で表示したり、コメントしたりできます。また、ウォッチ中の法案の審議状況が更新されるとメールで通知します。法案データは衆議院のウェブサイトから１日１回取得しています。'
+      }
+      siteUrl={'https://bill-watcher.com/'}
+      githubUrl={'https://github.com/chihaso/bill_watcher'}
+      technologies={['Ruby on Rails', 'VPS', 'CircleCI']}
+    />
   )
 }

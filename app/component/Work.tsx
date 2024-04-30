@@ -20,7 +20,7 @@ export default function Work({
   technologies,
 }: Props) {
   return (
-    <div className="border-2 border-gray-400 rounded-xl w-4/5 max-w-4xl mx-auto overflow-hidden text-gray-700">
+    <div className="border-2 border-gray-400 rounded-xl w-4/5 max-w-4xl mb-20 mx-auto overflow-hidden text-gray-700">
       <div className="relative h-56">
         <Image src={imagePath} alt={`${title}のイメージ画像`} fill className="object-cover" />
       </div>

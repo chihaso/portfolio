@@ -11,7 +11,7 @@ type Props = {
   technologies: TechnologyType[]
 }
 
-export default function Work({
+export default function PersonalDevelopment({
   title,
   imagePath,
   description,

@@ -1,5 +1,5 @@
 import Profile from './component/Profile'
-import Works from './component/Works'
+import PersonalDevelopments from './component/PersonalDevelopments'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <Profile />
       </section>
       <section className="mt-20">
-        <Works />
+        <PersonalDevelopments />
       </section>
     </main>
   )

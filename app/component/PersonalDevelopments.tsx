@@ -1,11 +1,11 @@
-import Work from './Work'
+import PersonalDevelopment from './PersonalDevelopment'
 
-export default function Works() {
+export default function PersonalDevelopments() {
   return (
     <>
-      <Work
+      <PersonalDevelopment
         title={'ポートフォリオサイト(このサイト)'}
-        imagePath={'/works/portfolio.png'}
+        imagePath={'/personal_developments/portfolio.png'}
         description={
           'このサイトです'
         }
@@ -13,9 +13,9 @@ export default function Works() {
         githubUrl={'https://github.com/chihaso/portfolio'}
         technologies={['Next', 'CloudFront', 'GitHubActions']}
       />
-      <Work
+      <PersonalDevelopment
         title={'書き散らし'}
-        imagePath={'/works/scribblings.png'}
+        imagePath={'/personal_developments/scribblings.png'}
         description={
           'シンプルな個人用のブログアプリです。ビルド時にヘッドレスCMSのContentfulからデータを取得して、SSGで静的サイトとして配信しています。'
         }
@@ -23,9 +23,9 @@ export default function Works() {
         githubUrl={'https://github.com/chihaso/scribblings'}
         technologies={['Next', 'CloudFront', 'GitHubActions']}
       />
-      <Work
+      <PersonalDevelopment
         title={'審議法案ウォッチャー（公開停止済み）'}
-        imagePath={'/works/bill_watcher.png'}
+        imagePath={'/personal_developments/bill_watcher.png'}
         description={
           '国会で審議されている法案を一覧で表示したり、コメントしたりできます。また、ウォッチ中の法案の審議状況が更新されるとメールで通知します。法案データは衆議院のウェブサイトから１日１回取得しています。'
         }

@@ -2,7 +2,8 @@ import PersonalDevelopment from './PersonalDevelopment'
 
 export default function PersonalDevelopments() {
   return (
-    <>
+    <div className="flex flex-col items-center">
+      <h2 className="text-2xl mb-10 text-gray-700">個人開発</h2>
       <PersonalDevelopment
         title={'ポートフォリオサイト(このサイト)'}
         imagePath={'/personal_developments/portfolio.png'}
@@ -33,6 +34,6 @@ export default function PersonalDevelopments() {
         githubUrl={'https://github.com/chihaso/bill_watcher'}
         technologies={['Rails', 'CircleCI']}
       />
-    </>
+    </div>
   )
 }
